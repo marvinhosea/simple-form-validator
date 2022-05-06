@@ -1,0 +1,18 @@
+{
+  "name": "@scaratec/form-validator",
+  "version": "1.0.0",
+  "description": "form validator for clipsymphony",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.scaratec.com/clipfiler/clipsymphony-form-validator.git"
+  },
+  "license": "MIT"
+}
